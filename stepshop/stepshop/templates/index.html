@@ -1,10 +1,8 @@
 {% extends 'base.html' %}
 {% load static %}
+{% load my_tags %}
 
-{% block title %}title|title{% endblock %}
-
-
-
+{% block title %}{{ title|title }}{% endblock %}
 
 {% block content %}
     <!-- Page Content -->
